@@ -25,8 +25,8 @@
 // ====================================================================
 
 //needed:
-//input textboxes (first name, last name, ID number, job title & annual salary)
-//submit button (this will need an ID for on click)
+//DONE - input textboxes (first name, last name, ID number, job title & annual salary)
+//DONE - submit button (this will need an ID for on click)
 //on click will need to collect data, store info, append info on the DOM,
 //clear input textboxes, calculate monthly cost & append monthly cost to DOM
 console.log('js');
