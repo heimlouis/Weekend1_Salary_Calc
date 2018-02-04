@@ -11,7 +11,8 @@
 //
 // ## Assignment:
 // The application should have an input form that collects
-//  - employee first name
+// Employee Data
+//  - first name
 //  - last name
 //  - ID number
 //  - job title
@@ -28,3 +29,13 @@
 //submit button (this will need an ID for on click)
 //on click will need to collect data, store info, append info on the DOM,
 //clear input textboxes, calculate monthly cost & append monthly cost to DOM
+//employee data - object
+var employeeData = {
+  firstName: '',
+  lastName: '',
+  idNumber: 0,
+  jobTitle: '',
+  annualSalary: 0
+};
+//employee - array
+var employees = [];
