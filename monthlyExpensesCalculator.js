@@ -106,7 +106,7 @@ function displayMonthlyExpenses(){
     // monthlyExpensesDataString += ' </li>';
     // console.log(monthlyExpensesDataString);
     //append monthlyExpensesDataString
-    monthlyExpensesData.replaceWith('$'+stringMonthlyExpenses);
+    monthlyExpensesData.replaceWith('$'+stringMonthlyExpenses);//this isn't working... I need this to replace the value on the DOM
     // console.log(monthlyExpensesDataString);
     console.log(monthlyExpenses);
   }
