@@ -106,7 +106,7 @@ function displayMonthlyExpenses(){
     // monthlyExpensesDataString += ' </li>';
     // console.log(monthlyExpensesDataString);
     //append monthlyExpensesDataString
-    monthlyExpensesData.replaceWith(stringMonthlyExpenses);
+    monthlyExpensesData.replaceWith('$'+stringMonthlyExpenses);
     // console.log(monthlyExpensesDataString);
     console.log(monthlyExpenses);
   }
