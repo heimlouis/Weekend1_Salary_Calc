@@ -71,11 +71,11 @@ function displayEmployees(){
     //these need to be appended to the ul element
     //local variable to store the append data
     var employeeStringData = '<li>';
-    employeeStringData += 'First Name: ' + employees[i].firstName + ' ';
-    employeeStringData += 'Last Name: ' + employees[i].lastName+' ';
-    employeeStringData += 'ID Number: ' + employees[i].idNumber+' ';
-    employeeStringData += 'Job Title: ' + employees[i].jobTitle+' ';
-    employeeStringData += 'Annual Salary: ' + employees[i].annualSalary+' ';
+    employeeStringData += '<strong>First Name:</strong> ' + employees[i].firstName + ' ';
+    employeeStringData += '<strong>Last Name:</strong> ' + employees[i].lastName+' ';
+    employeeStringData += '<strong>ID Number:</strong> ' + employees[i].idNumber+' ';
+    employeeStringData += '<strong>Job Title:</strong> ' + employees[i].jobTitle+' ';
+    employeeStringData += '<strong>Annual Salary:</strong> ' + employees[i].annualSalary+' ';
     employeeStringData += '</li>';
     employeeOutput.append(employeeStringData);
     $('#firstName').val('');
@@ -106,7 +106,7 @@ function displayMonthlyExpenses(){
     // monthlyExpensesDataString += ' </li>';
     // console.log(monthlyExpensesDataString);
     //append monthlyExpensesDataString
-    monthlyExpensesData.html('$'+stringMonthlyExpenses);//this isn't working... I need this to replace the value on the DOM
+    monthlyExpensesData.html('$'+stringMonthlyExpenses);
     // console.log(monthlyExpensesDataString);
     console.log(monthlyExpenses);
   }
